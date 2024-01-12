@@ -1,4 +1,18 @@
 ** gpt
+*** 2
+
+This works as expected very nice.
+
+I realize I need to adjust my request.
+
+I need to keep track of the outputs of each function because each
+subsequent function relies on the otuput of the previous function.
+
+For example, if the output of func3 is 10 on the first run but on the
+second run, the output is 11, then we will want to re-run func4
+because it relies on the output of func3 which has changed.
+
+*** 1
 
 In Python, I aim to execute a sequence of functions to produce a final
 result.

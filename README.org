@@ -1,0 +1,18 @@
+** gpt
+
+In Python, I aim to execute a sequence of functions to produce a final
+result.
+
+To optimize efficiency, I aim to avoid rerunning functions that have
+successfully completed.
+
+However, I need to re-execute some prior functions, even if they have
+completed successfully, to test a function at the end of the chain.
+
+To address this, I seek a pipeline mechanism that keeps track of
+completed functions.
+
+Subsequent runs of the pipeline should skip the execution of functions
+that have already run successfully, ensuring they are not repeated
+unnecessarily.
+

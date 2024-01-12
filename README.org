@@ -1,16 +1,15 @@
 ** gpt
 *** 2
 
-This works as expected very nice.
+I've recognized the need for a refinement in my request.
 
-I realize I need to adjust my request.
+I require the tracking of outputs from each function since each
+subsequent function depends on the output of the preceding one.
 
-I need to keep track of the outputs of each function because each
-subsequent function relies on the otuput of the previous function.
+For instance, if func3 produces an output of 10 in the initial run but
+11 in the second run, it becomes necessary to rerun func4.
 
-For example, if the output of func3 is 10 on the first run but on the
-second run, the output is 11, then we will want to re-run func4
-because it relies on the output of func3 which has changed.
+This is because func4 relies on the modified output of func3.
 
 *** 1
 

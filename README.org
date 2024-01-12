@@ -1,5 +1,16 @@
-** gpt
-*** 2
+* whitecare
+** summary
+
+I'm looking to run a series of Python functions efficiently, avoiding
+unnecessary reruns of successfully completed ones.
+
+However, I need a mechanism to re-execute specific prior functions,
+even if successful, due to dependencies.
+
+This necessitates a pipeline that tracks completed functions, ensuring
+subsequent runs skip unnecessary repetitions.
+
+** gpt prompt2
 
 I've recognized the need for a refinement in my request.
 
@@ -11,7 +22,7 @@ For instance, if func3 produces an output of 10 in the initial run but
 
 This is because func4 relies on the modified output of func3.
 
-*** 1
+** gpt prompt1
 
 In Python, I aim to execute a sequence of functions to produce a final
 result.
